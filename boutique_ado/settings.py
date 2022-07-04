@@ -89,7 +89,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Verifying your email is mandatory so we know users are using a real email
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory' 
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 
 # Email required twice on the registration page to make sure they haven't made any typos
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
