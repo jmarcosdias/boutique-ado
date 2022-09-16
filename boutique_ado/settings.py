@@ -199,7 +199,7 @@ if 'USE_AWS' in os.environ:
     
 
 # Stripe
-FREE_DELIVERY_THRESHOLD = 50
+FREE_DELIVERY_THRESHOLD = 30
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
@@ -220,5 +220,5 @@ else:
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-jmarcosdias-boutiqueado-ybj32mjbbql.ws-eu59.gitpod.io'
+    'https://8000-jmarcosdias-boutiqueado-ybj32mjbbql.ws-eu64.gitpod.io'
 ]
